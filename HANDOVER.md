@@ -23,7 +23,7 @@ pi 的房间广播协同插件（独立包，v0.1.0，发布时升 1.0.0）。JS
 
 - 与 flow 的关系：flow 只依赖「三工具存在且语义符合」+ 本存储契约，零 import——改工具名/语义/路径前必须与 flow 侧（PM 会话）确认
 - 写入边界：rooms/** 归本包；flow 只写 state/**
-- author：dongcheng.xie
+- author：mystery4f
 - 零构建零依赖
 
 ## 当前状态
