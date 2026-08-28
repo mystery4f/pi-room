@@ -1,0 +1,22 @@
+{
+  "name": "pi-room",
+  "version": "0.1.0",
+  "description": "房间广播协同：JSONL 文件总线（append-only，无服务器，跨进程安全）。三工具：room_join / room_broadcast / room_read。并行子代理与主会话的异步协同底座，可回看、可归档、无在线要求。",
+  "author": "dongcheng.xie",
+  "license": "MIT",
+  "type": "module",
+  "keywords": ["pi-package", "pi", "pi-coding-agent", "room", "broadcast", "multi-agent"],
+  "files": ["extensions/", "scripts/", "README.md"],
+  "scripts": {
+    "test": "node --experimental-strip-types scripts/selftest.ts"
+  },
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": { "optional": true }
+  }
+}
