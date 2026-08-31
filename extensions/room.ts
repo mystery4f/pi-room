@@ -8,7 +8,7 @@
  * 异步语义：broadcast 即写即返（不阻塞、无在线要求）；read 按行号回看。
  * 归档语义：房间文件可被调用方整体搬走（append-only 文件搬运即完整迁移，不丢消息）。
  *
- * @author dongcheng.xie
+ * @author mystery4f
  */
 
 import * as fs from "node:fs";
